@@ -1,0 +1,14 @@
+.image {
+    display: flex;
+    flex-direction: column; /* Arrange images vertically */
+    align-items: center; /* Center images horizontally */
+    gap: 10px; /* Adjust spacing between images if needed */
+}
+
+.image img {
+    width: 1200px; /* Set a constant width */
+    height: 500px; /* Set a constant height */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    border: 2px solid #ccc; /* Optional: add a border */
+    border-radius: 5px; /* Optional: add rounded corners */
+}

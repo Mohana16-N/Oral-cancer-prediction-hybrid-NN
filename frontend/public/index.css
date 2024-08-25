@@ -1,0 +1,65 @@
+/* Example global styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.links {
+  margin-right: 20px;
+}
+
+.links a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.5); /* Add background color */
+  padding: 5px 10px; /* Add padding */
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 40px); /* Adjust for header height */
+  text-align: center;
+  color: white;
+  margin-top: 60px; /* Adjust for header height */
+}
+
+.main h2 {
+  font-size: 36px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
